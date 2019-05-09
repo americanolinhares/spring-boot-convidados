@@ -23,8 +23,8 @@ Front-end e Back-end criados para sistema de geração de lista de convidados de
 * Clonar o projeto:
 
 ```sh
-$ git clone https://git@github.com:americanolinhares/spring-boot.git
-$ cd spring-boot
+$ git clone https://git@github.com:americanolinhares/spring-boot-convidados.git
+$ cd spring-boot-convidados
 ```
 
 1. Dentro do Eclipse com a perspectiva **Java EE** ir em *File*->*Import*->*Maven*->*Existing Maven Projects*->*Next*;
@@ -46,4 +46,4 @@ $ java -jar listavip-1.0-SNAPSHOT.jar
 
 ### Dependência:
 
-1. Para a funcionalidade de envio de email o projeto depende do jar gerado por um outro projeto encontrado no github:
+1. Para a funcionalidade de envio de email o projeto depende do jar **enviadorEmail-1.0-SNAPSHOT.jar** gerado pelo projeto [spring-boot-email](https://github.com/americanolinhares/spring-boot-email) encontrado no github:
